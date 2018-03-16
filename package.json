@@ -1,0 +1,16 @@
+{
+  "name": "bolide",
+  "version": "0.0",
+  "description": "UDP broadcast tool",
+  "scripts": {
+    "start": "node index.js",
+     "test": "standard && node index.js"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/amed/bolide",
+  "author": "Amed Kino",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
