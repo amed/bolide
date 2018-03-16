@@ -3,7 +3,8 @@
   "version": "0.0",
   "description": "UDP broadcast tool",
   "scripts": {
-    "start": "node index.js",
+    "receive": "node receiver.js",
+    "send": "node sender.js",
      "test": "standard && node index.js"
   },
   "main": "index.js",
